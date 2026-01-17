@@ -1,0 +1,123 @@
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, var(--bg-color) 0%, var(--card-bg) 100%);
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-tagline {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.highlight {
+    color: var(--primary-color);
+    position: relative;
+}
+
+.highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: var(--accent-color);
+    opacity: 0.2;
+    z-index: -1;
+}
+
+/* About Section */
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-header {
+    margin-right: 10px;
+    color: var(--accent-color);
+}
+
+/* Experience Section */
+.timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.timeline-items {
+    border-left: 3px solid var(--secondary-color);
+    padding-left: 2rem;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -2.6rem;
+    top: 5px;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    border: 3px solid var(--bg-color);
+}
+
+.timeline-content h4 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.timeline-date {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}

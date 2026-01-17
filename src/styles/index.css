@@ -1,0 +1,100 @@
+:root {
+  --primary-color: #2a3b55; /* Dark Slate Blue based on resume */
+  --secondary-color: #4a5c7a;
+  --accent-color: #e63946; /* A pop of color */
+  --text-color: #333;
+  --bg-color: #f8f9fa;
+  --card-bg: #ffffff;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --font-main: 'Inter', system-ui, sans-serif;
+  --transition: all 0.3s ease;
+}
+
+[data-theme='dark'] {
+  --primary-color: #64ffda;
+  --secondary-color: #8892b0;
+  --accent-color: #64ffda;
+  --text-color: #e6f1ff;
+  --bg-color: #0a192f;
+  --card-bg: #112240;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  transition: var(--transition);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px; /* Reduced from 1.5rem for tighter spacing */
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Utilities */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: var(--transition);
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--bg-color); /* Changed to use bg-color variable */
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--primary-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
