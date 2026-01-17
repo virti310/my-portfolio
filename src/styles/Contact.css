@@ -67,6 +67,23 @@
     gap: 0.5rem;
 }
 
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.social-icon:hover {
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
+
 @media screen and (max-width: 768px) {
     .contact-wrapper {
         grid-template-columns: 1fr;

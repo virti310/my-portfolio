@@ -5,8 +5,9 @@ export const personalInfo = {
     contacts: {
         email: "mehtavirtiiieee@gmail.com",
         phone: "6352807079",
-        linkedin: "https://linkedin.com/in/virti-mehta", // Placeholder if not in image
-        github: "https://github.com/virti-mehta", // Placeholder if not in image
+        linkedin: "https://www.linkedin.com/in/virti-mehta3110",
+        github: "https://github.com/virti310",
+        instagram: "https://www.instagram.com/_virtiiieee.310/",
     },
     about: "Motivated MSc Information Technology student with strong academic foundation in software development, database management, and networking. Passionate about applying theoretical knowledge to practical projects, eager to contribute to innovative solutions in IT and continuously expand technical expertise.",
     education: [

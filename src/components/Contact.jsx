@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { personalInfo } from '../data/info';
 import '../styles/Contact.css';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -69,6 +69,18 @@ const Contact = () => {
                         <div className="info-item">
                             <FaMapMarkerAlt className="info-icon" />
                             <span>Gujarat, India</span>
+                        </div>
+
+                        <div className="social-links">
+                            <a href={personalInfo.contacts.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <FaLinkedin className="social-icon" />
+                            </a>
+                            <a href={personalInfo.contacts.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <FaGithub className="social-icon" />
+                            </a>
+                            <a href={personalInfo.contacts.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <FaInstagram className="social-icon" />
+                            </a>
                         </div>
                     </div>
 
