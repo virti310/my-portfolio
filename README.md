@@ -3,11 +3,11 @@
 A modern, responsive personal portfolio website built with React and Vite.
 
 ## Features
-- 🎨 **Modern Design**: Clean and professional aesthetic.
-- 🌓 **Dark/Light Mode**: Toggle between themes.
-- 📱 **Fully Responsive**: Optimized for desktop, tablet, and mobile.
-- ⚡ **Fast Performance**: Built with Vite.
-- 🛠 **Customizable**: Easy to update data via `src/data/info.js`.
+-  Modern Design: Clean and professional aesthetic.
+-  Dark/Light Mode: Toggle between themes.
+-  Fully Responsive: Optimized for desktop, tablet, and mobile.
+-  Fast Performance: Built with Vite.
+-  Customizable: Easy to update data via `src/data/info.js`.
 
 ## Tech Stack
 - React
